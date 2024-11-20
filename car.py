@@ -1,4 +1,4 @@
-from main import Vehicle
+from vehicle import Vehicle
 
 class Car(Vehicle):
     
@@ -8,4 +8,4 @@ class Car(Vehicle):
         
 #overriding method
     def __str__(self):
-        return super().__str__() + "doors: " + str(self.num_doors)
+        return super().__str__() + "Doors: " + str(self.num_doors)
