@@ -2,8 +2,6 @@
 
 ## Class
 
-- templete (blueprint) for the creation of an object
-
 ### __init__ (initializer)
 -Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created
 
@@ -14,6 +12,10 @@
 
 ### Methods (Action)
 - instance method
+    - method that can be performed on the object
 - class method
--static method
--magic method
+    - allows us to create and modify class level data
+- static method
+    -does not have access to cls or instance attributes but performs action within the class
+- magic method
+    - reserved methods that perfrom a specific task '__str__'
